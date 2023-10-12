@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Navbar } from './components/navbar';
 import { Hero } from "./components/hero";
+import { Trending } from "./components/trending";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Trending />
     </div>
   )
 }
